@@ -1,0 +1,29 @@
+:root{
+   --black: #180A0A;
+   --ligth-grey: #DBD8E3;
+   --medium-grey:#5C5470;
+   --dark-grey: #352F44;
+}
+
+*{
+   padding: 0;
+   margin: 0;
+   text-decoration: none;
+}
+
+body{
+   width: 100%;
+   height: 100%;
+   box-sizing: border-box;
+   background-color: var(--black);
+   color:var(--ligth-grey)
+
+}
+
+.container{
+   background:var(--dark-grey);
+   width:90%;
+   margin: 10px auto;
+   border-radius: 5px;
+}
+
