@@ -3,6 +3,8 @@
    --ligth-grey: #DBD8E3;
    --medium-grey:#5C5470;
    --dark-grey: #352F44;
+   --roboto: 'Roboto', sans-serif;
+   --signika: 'Signika', sans-serif;
 }
 
 *{
@@ -16,7 +18,8 @@ body{
    height: 100%;
    box-sizing: border-box;
    background-color: var(--black);
-   color:var(--ligth-grey)
+   color:var(--ligth-grey);
+   font-family: var(--roboto);
 
 }
 
@@ -27,3 +30,31 @@ body{
    border-radius: 5px;
 }
 
+header h1{
+   text-align: center;
+   font-family: var(--signika);
+   font-weight: 500;
+   font-size: 2.5em;
+}
+nav{
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+}
+.nav-option{
+   margin: 10px;
+   list-style-type:none;
+   width:100%;
+   text-align: center;
+   height: 2em;
+}
+
+.nav-option:hover{
+   background-color: var(--medium-grey);
+   border-radius:5px;
+}
+
+.nav-option:active{
+   background-color: var(--ligth-grey);
+   color: var(--medium-grey);
+}
