@@ -26,6 +26,7 @@ body{
 .container{
    background:var(--dark-grey);
    width:90%;
+
    margin: 10px auto;
    border-radius: 5px;
 }
@@ -58,3 +59,21 @@ nav{
    background-color: var(--ligth-grey);
    color: var(--medium-grey);
 }
+
+.button-section{
+   background-color: var(--dark-grey);
+}
+
+/********* Buttoes****/
+
+.button{
+background:var(--ligth-grey);
+height: 200px;
+width: 250px;
+margin: 5%;
+}
+
+.button img{
+   width: 50px;
+}
+

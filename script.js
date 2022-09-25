@@ -1,3 +1,5 @@
+document.body.onload = sistemaMenu;
+
 const sistemaMenu = document.getElementById('sistemas');
 const pessoasMenu = document.getElementById('pessoas');
 const resultadoMenu = document.getElementById('resultados');
@@ -5,13 +7,20 @@ const telefoniaMenu = document.getElementById('telefonia');
 const vmMenu = document.getElementById('vm');
 const digitalMenu = document.getElementById('digital');
 const buttonSection = document.querySelector('.button-section')
+/*
+let spanbutton =document.createElement('span');
+let pButon = document.createElement('p');
 
-//**Adicionar botoes */
+//**Um tela para cada botão clicado 
 
-//**Um tela para cada botão clicado */
-
-
-
+//**Adicionar botoes
+function buttonSistema(){
+   spanbutton.appendChild(buttonSection);
+   pButon.appendChild(spanbutton);
+   pButon.innerHTML ='sdadasd'
+   
+}
+*/
 
 
 
@@ -22,7 +31,7 @@ const buttonSection = document.querySelector('.button-section')
 
 function click(){
    sistemaMenu.addEventListener('click', function(){
-      console.log('Clicou em sistemas')
+      buttonSistema();
    });
    pessoasMenu.addEventListener('click', function(){
       console.log('Agora está em Pessoas')
