@@ -57,4 +57,32 @@ nav{
 .nav-option:active{
    background-color: var(--ligth-grey);
    color: var(--medium-grey);
+ }
+
+.button-section{
+  display:flex;
+  margin: auto;
+  justify-content: space-evenly;
+}
+.div.button{
+  background: var(--ligth-grey);
+  width: 5rem;
+  text-align:center;
+  border-radius: 15px;
+  margin:20px;
+  font-weight: 400px;
+  font-size: 0.9rem;
+  border: 3px solid var(--black)
+}
+
+.div.button:hover{
+  background:var(--dark-grey)
+}
+.div.button img{
+  width: 4rem;
+  margin:5px;
+}
+
+.sistemas{
+  display: none;
 }
