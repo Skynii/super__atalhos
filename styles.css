@@ -63,6 +63,7 @@ nav{
   display:flex;
   margin: auto;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .div.button{
   background: var(--ligth-grey);
