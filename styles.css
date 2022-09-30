@@ -60,11 +60,13 @@ nav{
  }
 
 .button-section{
-  display:flex;
-  margin: auto;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   margin: 10px;
+   justify-content: center
 }
+
 .div.button{
   background: var(--ligth-grey);
   width: 5rem;
