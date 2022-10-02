@@ -10,13 +10,23 @@ let buttonSe = document.getElementsByClassName('button');
 
 
 
-let selectionSistemas = document.querySelector('.sistemas');
-let seleResultados = document.querySelector('.resultados');
+let selectionSistemas = document.querySelectorAll('.sistemas');
+let seleResultados = document.querySelectorAll('.resultados');
 let selectionTelefonia = document.querySelector('.telefonia');
 
 
+function sistemas(){
+   sistemaMenu.addEventListener('click', function(){
+      for(let i = 0; i < seleResultados.length; i++) {
+         seleResultados.item(i).style.display ="none"
+      }
+      
+   })
+};
 
-function click(){
+sistemas();
+
+/*function click(){
    sistemaMenu.addEventListener('click', function(){
       
    });
@@ -39,5 +49,5 @@ function click(){
 }
 
 click();
-
+*/
 
