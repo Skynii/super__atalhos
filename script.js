@@ -6,28 +6,23 @@ const resultadoMenu = document.getElementById('resultados');
 const telefoniaMenu = document.getElementById('telefonia');
 const vmMenu = document.getElementById('vm');
 const digitalMenu = document.getElementById('digital');
-let buttonSe = document.querySelector('.button');
+let buttonSe = document.getElementsByClassName('button');
+
+
+
 let selectionSistemas = document.querySelector('.sistemas');
+let seleResultados = document.querySelector('.resultados');
+let selectionTelefonia = document.querySelector('.telefonia');
 
 
-
-
-
-
-/************************************* */
-//* Adicionar evento de click e testar  na tela
 
 function click(){
    sistemaMenu.addEventListener('click', function(){
-      let selectionSistemas = document.querySelector('.pessoas.resultados').style.display = 'none';
-
-
-
-      console.log("seleficonou ")
-
-    });
+      
+   });
    pessoasMenu.addEventListener('click', function(){
-      console.log('Agora está em Pessoas')
+      
+      
    });
    resultadoMenu.addEventListener('click', function(){
       console.log('Agora está em Resultados');
@@ -44,4 +39,5 @@ function click(){
 }
 
 click();
+
 

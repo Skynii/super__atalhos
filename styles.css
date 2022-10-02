@@ -67,7 +67,7 @@ nav{
    justify-content: center
 }
 
-.div.button{
+.div{
   background: var(--ligth-grey);
   width: 5rem;
   text-align:center;
@@ -78,10 +78,10 @@ nav{
   border: 3px solid var(--black)
 }
 
-.div.button:hover{
+.div:hover{
   background:var(--dark-grey)
 }
-.div.button img{
+.div img{
   width: 4rem;
   margin:5px;
 }
